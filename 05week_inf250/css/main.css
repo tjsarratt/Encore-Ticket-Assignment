@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+}
+
+html {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	font-size: 18px;
+	background-color: whitesmoke;
+}
+
+body {
+	width: 100%;
+	max-width: 600px;
+	padding: 5px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	/*display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;*/
+	border: 1px solid #000;
+	box-shadow: 5px 10px 8px #888888;
+	margin-top: 10px;margin-bottom: 10px;
+	border-radius: 10px;
+	background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(245,167,28,1) 50%, rgba(0,0,0,1) 100%);
+}
+#ticketInfo {border: 1px solid black; margin-top: 10px;margin-bottom: 10px;
+	background-color: white }
+
+header {
+	
+	border: 1px black; margin-top: 10px;margin-bottom: 10px;
+	
+}
+
+header h1 {
+	margin-bottom: 0;
+}
+
+header img {
+	float: left;
+	height: 80px;
+	border: double 3px black;
+	border-radius: 50%;
+	margin-left: 10px; margin-right: 10px;
+}
+
+
+
+#disclaimer{
+	font-size: 0.8rem;
+	border: 1px solid black; margin-top: 10px;margin-bottom: 10px;
+	background-color: white
+}
+
+footer {
+	padding: 10px;
+
+	color: #f5a71c;
+	font-size: 0.8rem;
+}
+
+footer p {margin-top: 5px;}
+
+.shadow {
+	text-shadow: 2px 2px 2px #F6A41E; /* #F6A41E or #F9B94C */
+}
+
+#ticketPrices img {
+	float: right;
+	width: 200px;
+	margin-right: 30px;
+	
+}
+
+#ticketPrices {border: 1px solid black; margin-top: 10px;margin-bottom: 10px;
+	background-color: white}
+
+#quote {border: 1px solid black; margin-top: 10px;margin-bottom: 10px;
+background-color: black;
+border: 1px solid white;
+}
+blockquote {margin: 10px; border:  3px double black; border-radius: 10px; background-color: white; padding: 10px; text-align: center;}
+#disclaimer h3{margin-bottom: 0px;}
